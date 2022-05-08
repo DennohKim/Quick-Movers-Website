@@ -173,3 +173,16 @@ html {
     color: #faff00 ;
     padding-left: 0.6rem;
   }
+
+  .gradient-line {
+    height: 0.3rem;
+    width: 14rem;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 229, 20, 1) 0%,
+      rgba(195, 147, 0, 1) 35%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    margin-bottom: 3rem;
+    border-radius: 5rem;
+  }
