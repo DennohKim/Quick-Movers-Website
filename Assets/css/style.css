@@ -227,3 +227,40 @@ html {
     justify-content: space-between;
   }
   
+
+table {
+    position: relative;
+    width: 100%;
+  }
+  
+  table,
+  tr,
+  th {
+    border: 1px solid rgb(228, 228, 228);
+    border-collapse: collapse;
+    padding: 2.4rem;
+    font-family: "adamina";
+    font-weight: normal;
+  }
+  
+  table,
+  tr,
+  th:nth-child(1) {
+    border-bottom: none;
+    border-left: none;
+  }
+  table,
+  tr,
+  th:nth-child(2) {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+  
+  table,
+  tr,
+  th:nth-child(3) {
+    border-bottom: none;
+    border-right: none;
+  }
+  
