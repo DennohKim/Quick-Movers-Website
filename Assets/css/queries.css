@@ -467,3 +467,42 @@
     font-size: 2.6rem;
   }
 }
+
+/*----- TABLET & LANDSCAPE PHONES ------  */
+
+@media screen and (max-width: 768px) {
+  .house__title-heading {
+    font-size: 2.4rem;
+  }
+  .property-infomation-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 2fr, 1fr);
+    justify-items: center;
+    padding-top: 5rem;
+  }
+
+  .sidebar {
+    height: 50rem;
+  }
+  .footer__heading-properties {
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .house__title-heading {
+    font-size: 2rem;
+  }
+  .property__cards-main-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    padding-top: 10rem;
+  }
+
+  .footer__heading-properties {
+    font-size: 2rem;
+  }
+}
