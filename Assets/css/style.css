@@ -348,7 +348,18 @@ footer {
     list-style: none;
   }
 
-
+  .nav__button {
+    font-size: 1.6rem;
+    padding: 1.8rem 1.8rem;
+    border: none;
+    background-color: #ffac12;
+    color: #000;
+    border-radius: 0 1.6rem 0 0;
+  }
+  .fa-arrow-right-long {
+    color: #fff;
+    padding-left: 1rem;
+  }
 
 .house__title {
     display: flex;
