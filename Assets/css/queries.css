@@ -1,0 +1,622 @@
+/* ---------- Breakpoints ---------- */
+
+/* ----LAPTOPS */
+
+@media screen and (max-width: 1058px) {
+  h2 {
+    font-size: 3.6rem;
+  }
+
+  .learn-more__details {
+    width: 30%;
+  }
+
+  .learn-more__details > p {
+    font-size: 1.8rem;
+  }
+
+  table,
+  tr,
+  th {
+    font-size: 1.2rem;
+    padding: 2rem;
+  }
+
+  .property__card-title {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 952px) {
+  .nav__link-list {
+    font-size: 1.4rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  .learn-more__details {
+    width: 30%;
+  }
+
+  .learn-more__details > p {
+    font-size: 1.6rem;
+  }
+
+  .header__paragraph {
+    font-size: 1.6rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+  }
+  table,
+  tr,
+  th {
+    font-size: 1.2rem;
+    padding: 1.4rem;
+  }
+
+  .property__card-title {
+    font-size: 1.2rem;
+    padding: 1.2rem;
+  }
+
+  .fa-solid {
+    padding-right: 1rem;
+  }
+
+  .fa-brands {
+    padding-right: 2rem;
+  }
+
+  .footer__columns-link {
+    font-size: 1.4rem;
+  }
+
+  #footer__columns-links-heading {
+    font-size: 1.6rem;
+  }
+}
+
+/* --- TABLETS & LANDSCAPE ORIENTED PHONES */
+
+@media screen and (max-width: 710px) {
+  .nav__link-list {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .learn-more__details {
+    width: 35%;
+  }
+
+  .learn-more__details > p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .learn__button {
+    font-size: 1.4rem;
+  }
+
+  .header__paragraph {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+  }
+  table,
+  tr,
+  th {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .property__card-title {
+    font-size: 1rem;
+    padding: 1.2rem;
+  }
+
+  .footer__heading {
+    font-size: 2.4rem;
+  }
+
+  .footer__columns-link {
+    font-size: 1.2rem;
+  }
+
+  #footer__columns-links-heading {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .nav__link-list {
+    font-size: 1rem;
+    margin-right: 3rem;
+  }
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  .learn-more__details {
+    width: 35%;
+  }
+
+  .learn-more__details > p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .learn__button {
+    font-size: 1.2rem;
+    padding: 1.4rem 1.4rem;
+    margin-top: 2.4rem;
+  }
+
+  .header__paragraph {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+  table,
+  tr,
+  th {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .property__card-title {
+    font-size: 1rem;
+    padding: 1.2rem;
+  }
+
+  .property__cards-main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    padding-top: 10rem;
+  }
+
+  .footer__heading {
+    font-size: 2.2rem;
+  }
+
+  .footer__columns-link {
+    font-size: 1.2rem;
+  }
+
+  #footer__columns-links-heading {
+    font-size: 1.4rem;
+  }
+
+  .footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    align-items: center;
+    justify-items: start;
+    padding: 5rem 0;
+  }
+}
+
+@media screen and (max-width: 526px) {
+  .nav__link-list {
+    font-size: 1rem;
+    margin-right: 2rem;
+
+  }
+
+  .btn {
+    font-family: "adamina";
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+  }
+
+  .btn__log-in {
+    background-color: #faff00;
+    color: black;
+    margin-right: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  .header__textarea {
+    width: 80%;
+  }
+
+  .learn-more__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .learn-more__image {
+    width: 100%;
+  }
+
+  .learn-more__details {
+    width: 80%;
+  }
+
+  .learn-more__details > p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .learn__button {
+    font-size: 1.2rem;
+    padding: 1.4rem 1.4rem;
+    margin-top: 2.4rem;
+  }
+
+  .header__textarea {
+    width: 80%;
+  }
+
+  .header__paragraph {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+  table,
+  tr,
+  th {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .property__card-title {
+    font-size: 1rem;
+    padding: 1.2rem;
+  }
+
+  .property__cards-main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    padding-top: 8rem;
+  }
+
+  .footer__heading {
+    font-size: 2.2rem;
+  }
+
+  .footer__columns-link {
+    font-size: 1.2rem;
+  }
+
+  #footer__columns-links-heading {
+    font-size: 1.4rem;
+  }
+
+  .footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    align-items: center;
+    justify-items: start;
+    padding: 5rem 0;
+  }
+}
+
+/* ----- MOBILE PHONES ----- */
+
+@media screen and (max-width: 445px) {
+  .nav__link-list {
+    font-size: 0.9rem;
+    margin-right: 1.4rem;
+  }
+
+  .btn__log-in {
+    background-color: #faff00;
+    color: black;
+    margin-right: 1.4rem;
+  }
+
+  .btn {
+    font-family: "adamina";
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+  }
+
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  .header__textarea {
+    width: 80%;
+  }
+
+  .learn-more__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .learn-more__image {
+    width: 100%;
+  }
+
+  .learn-more__details {
+    width: 80%;
+  }
+
+  .learn-more__details > p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .learn__button {
+    font-size: 1.2rem;
+    padding: 1.4rem 1.4rem;
+    margin-top: 2.4rem;
+  }
+
+  .header__paragraph {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+  table,
+  tr,
+  th {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .property__card-title {
+    font-size: 1rem;
+    padding: 1.2rem;
+  }
+
+  .property__cards-main-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    padding-top: 6remrem;
+  }
+
+  .property__card-container {
+    padding: 6rem 0;
+  }
+
+  .footer__heading {
+    font-size: 2.2rem;
+  }
+
+  .footer__columns-link {
+    font-size: 1.2rem;
+  }
+
+  #footer__columns-links-heading {
+    font-size: 1.4rem;
+  }
+
+  .footer__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    align-items: center;
+    justify-items: start;
+    padding: 5rem 0;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .footer__container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 3rem;
+    align-items: center;
+    justify-items: start;
+    padding: 5rem 0;
+  }
+}
+
+/* ------- PAGE 2 --------- */
+
+/*----- LAPTOPS ------  */
+
+@media screen and (max-width: 984px) {
+  .property__info-features-list > ul {
+    padding: 1rem 0;
+  }
+
+  .property__info-description > p {
+    padding-bottom: 2.4rem;
+    padding-right: 3.6rem;
+    padding-left: 3.6rem;
+    width: 100%;
+    color: #5a5a5a;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .nav__link-list-properties {
+    margin-right: 6rem;
+    list-style: none;
+    font-size: 1.2rem;
+  }
+  .nav__button {
+    font-size: 1.4rem;
+    padding: 1.4rem 1.4rem;
+    border: none;
+    background-color: #ffac12;
+    color: #000;
+    border-radius: 0 1.6rem 0 0;
+  }
+
+  .house__title-heading {
+    font-size: 2.6rem;
+  }
+}
+
+/*----- TABLET & LANDSCAPE PHONES ------  */
+
+@media screen and (max-width: 768px) {
+  .nav__link-list-properties {
+    margin-right: 4rem;
+    list-style: none;
+  }
+  .house__title-heading {
+    font-size: 2.4rem;
+  }
+  .property-infomation-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 2fr, 1fr);
+    justify-items: center;
+    padding-top: 5rem;
+  }
+
+  .sidebar {
+    height: 50rem;
+  }
+  .footer__heading-properties {
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .properties__navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  .nav__button {
+    font-size: 1rem;
+    padding: 1.2rem 1.2rem;
+    border: none;
+    background-color: #ffac12;
+    color: #000;
+    border-radius: 0 1.6rem 0 0;
+  }
+
+  .nav__link-list-properties {
+    margin-right: 2rem;
+    list-style: none;
+    font-size: 1rem;
+  }
+
+  .house__title-heading {
+    font-size: 2rem;
+  }
+  .property__cards-main-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    padding-top: 10rem;
+  }
+
+  .footer__heading-properties {
+    font-size: 2rem;
+  }
+}
+
+/*----- POTRAIT ORIENTATION PHONES ------  */
+
+@media screen and (max-width: 445px) {
+
+  .nav__link-list-properties {
+    margin-right: 1.6rem;
+    list-style: none;
+    font-size: 1rem;
+  }
+
+  .footer__heading-properties {
+    font-size: 2rem;
+  }
+  .property__cards-main-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    padding-top: 10rem;
+  }
+  .footer__container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 3rem;
+    align-items: center;
+    justify-items: start;
+    padding: 5rem 0;
+  }
+
+  .nav__button {
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    border: none;
+    margin-left: 0.6rem;
+    background-color: #ffac12;
+    color: #000;
+    border-radius: 0 1.6rem 0 0;
+  }
+
+  .fa-arrow-right-long {
+    color: #fff;
+    padding-left: 0.6rem;
+  }
+
+  footer__heading-properties {
+    font-size: 1rem;
+  }
+}
