@@ -471,6 +471,10 @@
 /*----- TABLET & LANDSCAPE PHONES ------  */
 
 @media screen and (max-width: 768px) {
+  .nav__link-list-properties {
+    margin-right: 4rem;
+    list-style: none;
+  }
   .house__title-heading {
     font-size: 2.4rem;
   }
@@ -491,6 +495,28 @@
 }
 
 @media screen and (max-width: 610px) {
+  .properties__navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  .nav__button {
+    font-size: 1rem;
+    padding: 1.2rem 1.2rem;
+    border: none;
+    background-color: #ffac12;
+    color: #000;
+    border-radius: 0 1.6rem 0 0;
+  }
+
+  .nav__link-list-properties {
+    margin-right: 2rem;
+    list-style: none;
+    font-size: 1rem;
+  }
+
   .house__title-heading {
     font-size: 2rem;
   }
@@ -507,47 +533,52 @@
   }
 }
 
-
 /*----- POTRAIT ORIENTATION PHONES ------  */
 
 @media screen and (max-width: 445px) {
-    .footer__heading-properties {
-      font-size: 2rem;
-    }
-    .property__cards-main-wrapper {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-column-gap: 3rem;
-      grid-row-gap: 3rem;
-      padding-top: 10rem;
-    }
-    .footer__container {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(4, 1fr);
-      gap: 3rem;
-      align-items: center;
-      justify-items: start;
-      padding: 5rem 0;
-    }
-  
-    .nav__button {
-      font-size: 1rem;
-      padding: 1rem 1rem;
-      border: none;
-      margin-left: 0.6rem;
-      background-color: #ffac12;
-      color: #000;
-      border-radius: 0 1.6rem 0 0;
-    }
-  
-    .fa-arrow-right-long {
-      color: #fff;
-      padding-left: 0.6rem;
-    }
-  
-    footer__heading-properties {
-      font-size: 1rem;
-    }
+
+  .nav__link-list-properties {
+    margin-right: 1.6rem;
+    list-style: none;
+    font-size: 1rem;
   }
-  
+
+  .footer__heading-properties {
+    font-size: 2rem;
+  }
+  .property__cards-main-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    padding-top: 10rem;
+  }
+  .footer__container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 3rem;
+    align-items: center;
+    justify-items: start;
+    padding: 5rem 0;
+  }
+
+  .nav__button {
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    border: none;
+    margin-left: 0.6rem;
+    background-color: #ffac12;
+    color: #000;
+    border-radius: 0 1.6rem 0 0;
+  }
+
+  .fa-arrow-right-long {
+    color: #fff;
+    padding-left: 0.6rem;
+  }
+
+  footer__heading-properties {
+    font-size: 1rem;
+  }
+}
