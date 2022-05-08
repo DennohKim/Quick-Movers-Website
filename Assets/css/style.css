@@ -75,3 +75,52 @@ html {
   /* .btn:hover {
       border: 1px solid #FAFF00;
   } */
+
+  /*---- MAIN PAGE HEADER SECTION----- */
+.header {
+    background-image: url("../images/moving1.png");
+    background-size: cover;
+    height: 90vh;
+  }
+  
+  nav {
+    padding-top: 3.2rem;
+  }
+  
+  .nav__links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  a:link, a:visited {
+    text-decoration: none;
+  
+    color: white;
+  }
+
+  .nav__link-list {
+    font-family: "Adamina";
+    margin-right: 4rem;
+    list-style: none;
+    font-size: 1.6rem;
+  }
+  
+  .btn__log-in {
+    background-color: #faff00;
+    color: black;
+    margin-right: 3rem;
+  }
+  
+  .header__textarea {
+    padding-top: 9.6rem;
+    width: 50%;
+  }
+  
+  .header__paragraph {
+    font-family: "poppins", sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+    color: white;
+  }
