@@ -1,0 +1,84 @@
+/* ---------- Breakpoints ---------- */
+
+/* ----LAPTOPS */
+
+@media screen and (max-width: 1058px) {
+  h2 {
+    font-size: 3.6rem;
+  }
+
+  .learn-more__details {
+    width: 30%;
+  }
+
+  .learn-more__details > p {
+    font-size: 1.8rem;
+  }
+
+  table,
+  tr,
+  th {
+    font-size: 1.2rem;
+    padding: 2rem;
+  }
+
+  .property__card-title {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 952px) {
+  .nav__link-list {
+    font-size: 1.4rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  .learn-more__details {
+    width: 30%;
+  }
+
+  .learn-more__details > p {
+    font-size: 1.6rem;
+  }
+
+  .header__paragraph {
+    font-size: 1.6rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+  }
+  table,
+  tr,
+  th {
+    font-size: 1.2rem;
+    padding: 1.4rem;
+  }
+
+  .property__card-title {
+    font-size: 1.2rem;
+    padding: 1.2rem;
+  }
+
+  .fa-solid {
+    padding-right: 1rem;
+  }
+
+  .fa-brands {
+    padding-right: 2rem;
+  }
+
+  .footer__columns-link {
+    font-size: 1.4rem;
+  }
+
+  #footer__columns-links-heading {
+    font-size: 1.6rem;
+  }
+}
