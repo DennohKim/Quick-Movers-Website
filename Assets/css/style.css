@@ -402,7 +402,7 @@ footer {
   justify-content: space-between;
   gap: 1.5rem;
   padding-top: 1.5rem;
-  max-width: 40rem;
+  width: 100%;
 }
 
 .more-images__container > img {
