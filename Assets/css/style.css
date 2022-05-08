@@ -561,6 +561,7 @@ form > div > input {
   font-size: 1.6rem;
   font-weight: normal;
   border-radius: 0 1.6rem 0 0;
+  margin-bottom: 3rem;
 }
 
 .fa-arrow-color {
