@@ -428,3 +428,42 @@
     padding: 5rem 0;
   }
 }
+
+/* ------- PAGE 2 --------- */
+
+/*----- LAPTOPS ------  */
+
+@media screen and (max-width: 984px) {
+  .property__info-features-list > ul {
+    padding: 1rem 0;
+  }
+
+  .property__info-description > p {
+    padding-bottom: 2.4rem;
+    padding-right: 3.6rem;
+    padding-left: 3.6rem;
+    width: 100%;
+    color: #5a5a5a;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .nav__link-list-properties {
+    margin-right: 6rem;
+    list-style: none;
+    font-size: 1.2rem;
+  }
+  .nav__button {
+    font-size: 1.4rem;
+    padding: 1.4rem 1.4rem;
+    border: none;
+    background-color: #ffac12;
+    color: #000;
+    border-radius: 0 1.6rem 0 0;
+  }
+
+  .house__title-heading {
+    font-size: 2.6rem;
+  }
+}
