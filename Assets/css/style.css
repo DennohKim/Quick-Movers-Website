@@ -127,3 +127,49 @@ html {
     padding-top: 2rem;
     color: white;
   }
+
+  /*---- LEARN MORE SECTION----- */
+
+.learn-more__container {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 8rem;
+  }
+  
+  .learn-more__image {
+    width: 40%;
+  }
+  
+  .learn-more__image > img {
+    width: 100%;
+  }
+  
+  .learn-more__details {
+    width: 30%;
+    margin: auto 0;
+  }
+  
+  .learn-more__details > p {
+    font-family: "poppins", sans-serif;
+    font-size: 2rem;
+    line-height: 1.2;
+    padding-top: 2rem;
+    color: #5a5a5a;
+  }
+  
+  .learn__button {
+    font-family: "adamina", times, "Times New Roman";
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    padding: 1.8rem 1.8rem;
+    border: none;
+    background-color: #000;
+    color: #faff00;
+    border-radius: 0 1.6rem 0 0;
+  }
+  
+  .learn__button > i {
+    color: #faff00 ;
+    padding-left: 0.6rem;
+  }
