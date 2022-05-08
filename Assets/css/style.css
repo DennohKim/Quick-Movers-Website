@@ -316,3 +316,52 @@ footer {
     padding-bottom: 2rem;
     font-weight: bold;
   }
+
+/* -----------------PAGE 2 ---------------- */
+
+/*---- PROPERTY PAGE NAVIGATION SECTION ----- */
+
+.properties__header {
+    background: linear-gradient(
+      256deg,
+      rgba(45, 34, 1, 1) 0%,
+      rgba(22, 16, 0, 1) 64%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+  
+  .propertes__header-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .properties__navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(226, 226, 226, 0.26);
+  }
+  
+  .nav__link-list-properties {
+    margin-right: 6rem;
+    list-style: none;
+  }
+
+
+
+.house__title {
+    display: flex;
+    justify-content: space-between;
+  
+    padding-top: 2rem;
+  }
+  
+  .house__title-heading {
+    font-family: "Actor";
+    color: white;
+  }
+  
+  .house__title > .house__title-price > h4 {
+    text-align: right;
+  }
