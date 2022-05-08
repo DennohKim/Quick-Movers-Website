@@ -269,3 +269,38 @@ table {
     align-items: center;
   }
   
+
+/*---- MAIN PAGE FOOTER SECTION ----- */
+
+footer {
+    /* height: 50vh; */
+    background: linear-gradient(
+      207deg,
+      rgba(119, 86, 0, 1) 0%,
+      rgba(74, 55, 0, 1) 10%,
+      rgba(0, 0, 0, 1) 39%
+    );
+  }
+  
+  .footer__heading {
+    font-size: 3rem;
+    color: white;
+    font-family: "Actor";
+    padding: 5rem 0;
+    border-bottom: 1px solid rgb(226, 226, 226, 0.26);
+  }
+  .footer__heading > span {
+    color: #d29b09;
+  }
+
+  .footer__columns-links > ul > a > li {
+    font-family: "Actor";
+    padding-bottom: 1rem;
+    list-style: none;
+  }
+  
+  #footer__columns-links-heading {
+    font-family: "Actor";
+    padding-bottom: 2rem;
+    font-weight: bold;
+  }
