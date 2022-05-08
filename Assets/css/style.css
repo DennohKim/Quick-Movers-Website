@@ -264,3 +264,8 @@ table {
     border-right: none;
   }
   
+  .fa-solid {
+    padding-right: 1rem;
+    align-items: center;
+  }
+  
