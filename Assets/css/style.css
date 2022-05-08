@@ -535,3 +535,43 @@ footer {
   
   }
   
+
+form > div {
+    padding: 0.6rem 2rem;
+    margin: 0 auto;
+  }
+  
+  form > div > input {
+    padding: 1.6rem 1rem;
+    width: 100%;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 1rem;
+    font-family: 'Actor';
+    font-weight: normal;
+    color: #000;
+  }
+  
+  .form-message {
+    
+    height: 10rem;
+    align-items: start;
+    margin-bottom: 0.6rem;
+  }
+  
+  
+  .btn--form{
+    width: 100%;
+    padding: 2rem 0;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Actor';
+    font-size: 1.6rem;
+    font-weight: normal;
+    border-radius: 0 1.6rem 0 0;
+  
+  }
+  
+  .fa-arrow-color {
+    color: #d29b09;
+  }
