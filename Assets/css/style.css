@@ -293,6 +293,18 @@ footer {
     color: #d29b09;
   }
 
+  .footer__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 3rem;
+    align-items: center;
+    justify-items: end;
+    padding: 5rem 0;
+  }
+  .footer__social-media-links {
+    justify-self: start;
+  }
+
   .footer__columns-links > ul > a > li {
     font-family: "Actor";
     padding-bottom: 1rem;
