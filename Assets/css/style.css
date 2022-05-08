@@ -575,3 +575,23 @@ form > div {
   .fa-arrow-color {
     color: #d29b09;
   }
+
+  /*---- SIMILAR LISTINGS SECTION----- */
+
+.similar__listings {
+    background-color: rgb(242, 242, 242);
+  }
+  .property__card__heading > h1 {
+    color: #000;
+    font-family: "Actor";
+    font-weight: normal;
+  }
+  .property__cards-main-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    padding-top: 10rem;
+  }
+
+  
