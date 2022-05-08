@@ -1,0 +1,318 @@
+/* GLOBAL STYLES */
+
+/* ------------------------------------- */
+
+/* COLORS */
+
+/* Text: #FAFF00 */
+/* Button: #FFAC12 */
+
+/* ----------------------------------------- */
+
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Poppins:wght@300;400;700&display=swap");
+
+/* ------------------------------------------ */
+html {
+    font-size: 62.5%;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-size: 1.6rem;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    font-family: "adamina";
+    font-size: 1.6rem;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+  }
+  
+  h1 {
+    color: #faff00;
+    font-size: 4rem;
+    font-family: "adamina", times new Roman;
+    font-weight: normal;
+  }
+  
+  h2 {
+    color: #000;
+    font-size: 4rem;
+    font-family: "adamina", times new Roman;
+    font-weight: normal;
+  }
+  
+  main {
+    font-family: "Actor";
+  }
+  h3 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding: 3rem 4rem;
+  }
+  
+  h4 {
+    font-size: 1rem;
+    color: rgb(248, 248, 248);
+    padding: 2rem 0;
+  }
+  
+  /* .btn:hover {
+      border: 1px solid #FAFF00;
+  } */
+
+  /*---- MAIN PAGE HEADER SECTION----- */
+.header {
+    background-image: url("../images/moving1.png");
+    background-size: cover;
+    height: 90vh;
+  }
+  
+  nav {
+    padding-top: 3.2rem;
+  }
+  
+  .nav__links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  a:link, a:visited {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover, a:active {
+    color: #faff00;
+  }
+
+  .nav__link-list {
+    font-family: "Adamina";
+    margin-right: 4rem;
+    list-style: none;
+    font-size: 1.6rem;
+  }
+  
+  .btn__log-in {
+    background-color: #faff00;
+    color: black;
+    margin-right: 3rem;
+  }
+  
+  .header__textarea {
+    padding-top: 9.6rem;
+    width: 50%;
+  }
+  
+  .header__paragraph {
+    font-family: "poppins", sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+    color: white;
+  }
+
+  /*---- LEARN MORE SECTION----- */
+
+.learn-more__container {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 8rem;
+  }
+  
+  .learn-more__image {
+    width: 40%;
+  }
+  
+  .learn-more__image > img {
+    width: 100%;
+  }
+  
+  .learn-more__details {
+    width: 30%;
+    margin: auto 0;
+  }
+  
+  .learn-more__details > p {
+    font-family: "poppins", sans-serif;
+    font-size: 2rem;
+    line-height: 1.2;
+    padding-top: 2rem;
+    color: #5a5a5a;
+  }
+  
+  .learn__button {
+    font-family: "adamina", times, "Times New Roman";
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    padding: 1.8rem 1.8rem;
+    border: none;
+    background-color: #000;
+    color: #faff00;
+    border-radius: 0 1.6rem 0 0;
+  }
+  
+  .learn__button > i {
+    color: #faff00 ;
+    padding-left: 0.6rem;
+  }
+
+  .gradient-line {
+    height: 0.3rem;
+    width: 14rem;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 229, 20, 1) 0%,
+      rgba(195, 147, 0, 1) 35%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    margin-bottom: 3rem;
+    border-radius: 5rem;
+  }
+
+  /*---- TOP MOVERS SECTION ----- */
+.top-movers {
+    margin-top: 3rem;
+    background-color: rgb(240, 240, 240);
+  }
+  .property__card-container {
+    padding: 6rem 0;
+  }
+
+  .property__cards-main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    padding-top: 10rem;
+  }
+  
+  .property__cards {
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.096);
+  }
+  
+  .property__card-title {
+    font-family: "adamina";
+    font-size: 1.6rem;
+    padding: 2rem;
+  }
+  
+  .property__card-image > img {
+    width: 100%;
+  }
+  
+  .property__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+
+table {
+    position: relative;
+    width: 100%;
+  }
+  
+  table,
+  tr,
+  th {
+    border: 1px solid rgb(228, 228, 228);
+    border-collapse: collapse;
+    padding: 2.4rem;
+    font-family: "adamina";
+    font-weight: normal;
+  }
+  
+  table,
+  tr,
+  th:nth-child(1) {
+    border-bottom: none;
+    border-left: none;
+  }
+  table,
+  tr,
+  th:nth-child(2) {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+  
+  table,
+  tr,
+  th:nth-child(3) {
+    border-bottom: none;
+    border-right: none;
+  }
+  
+  .fa-solid {
+    padding-right: 1rem;
+    align-items: center;
+  }
+  
+
+/*---- MAIN PAGE FOOTER SECTION ----- */
+
+footer {
+    /* height: 50vh; */
+    background: linear-gradient(
+      207deg,
+      rgba(119, 86, 0, 1) 0%,
+      rgba(74, 55, 0, 1) 10%,
+      rgba(0, 0, 0, 1) 39%
+    );
+  }
+  
+  .footer__heading {
+    font-size: 3rem;
+    color: white;
+    font-family: "Actor";
+    padding: 5rem 0;
+    border-bottom: 1px solid rgb(226, 226, 226, 0.26);
+  }
+  .footer__heading > span {
+    color: #d29b09;
+  }
+
+  .footer__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 3rem;
+    align-items: center;
+    justify-items: end;
+    padding: 5rem 0;
+  }
+  .footer__social-media-links {
+    justify-self: start;
+  }
+
+  .footer__columns-links > ul > a > li {
+    font-family: "Actor";
+    padding-bottom: 1rem;
+    list-style: none;
+  }
+  
+  #footer__columns-links-heading {
+    font-family: "Actor";
+    padding-bottom: 2rem;
+    font-weight: bold;
+  }
